@@ -33,7 +33,7 @@ MarkupSafe==1.1.1
 matplotlib==3.3.3
 mpmath==1.1.0
 numexpr==2.7.1
-numpy==1.18.5
+numpy==1.22.2
 oauthlib==3.1.0
 opt-einsum==3.3.0
 packaging==20.7
@@ -77,3 +77,4 @@ wcwidth==0.2.5
 Werkzeug==1.0.1
 wrapt==1.12.1
 wurlitzer==2.0.1
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
